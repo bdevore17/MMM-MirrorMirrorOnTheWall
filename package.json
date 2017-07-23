@@ -25,6 +25,6 @@
   },
   "homepage": "https://github.com/joanaz/MMM-MirrorMirrorOnTheWall#readme",
   "dependencies": {
-    "aws-iot-device-sdk": "latest"
+    "aws-iot-device-sdk": "1.0.14"
   }
 }
