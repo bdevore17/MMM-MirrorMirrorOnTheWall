@@ -96,7 +96,7 @@ Module.register('MMM-MirrorMirrorOnTheWall', {
         console.log("received torrent!");
         var torrentWrapper = document.createElement('div');
         torrentWrapper.className = 'torrentWrapper';
-        torrentWrapper.innerHTML = `<video controls autoplay><source src="chargerinmotion.com:3000?name=${this.result.torrent}" type="video/mp4"/></video>`;
+        torrentWrapper.innerHTML = `<video controls autoplay><source src="http://chargerinmotion.com:3000?name=${this.result.torrent}" type="video/mp4"/></video>`;
         wrapper.appendChild(torrentWrapper);
       }
 
