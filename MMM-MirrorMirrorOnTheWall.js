@@ -93,6 +93,7 @@ Module.register('MMM-MirrorMirrorOnTheWall', {
       }
 
       if (this.result.torrent) {
+        console.log("received torrent!");
         var torrentWrapper = document.createElement('div');
         torrentWrapper.className = 'torrentWrapper';
         torrentWrapper.innerHTML = `<video controls autoplay><source src="chargerinmotion.com:3000?name=${this.result.torrent}" type="video/mp4"/></video>`;
@@ -100,6 +101,7 @@ Module.register('MMM-MirrorMirrorOnTheWall', {
       }
 
       if (this.result.displayText) {
+        console.log("received display text!");
         var h1 = document.createElement('h1');
         h1.className = 'animated fadeIn';
         var t = document.createTextNode(this.result.displayText);
